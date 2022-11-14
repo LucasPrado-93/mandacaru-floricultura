@@ -1,0 +1,113 @@
+@media screen and (max-width: 600px) {
+  #header {
+    display: flex;
+    width: 375px;
+    position: absolute;
+  }
+  #header_logo {
+    width: 100px;
+    padding: 5px 0px 0px 20px;
+  }
+  #menu {
+    padding: 5px 0px 0px 8px;
+  }
+  #header_car {
+    right: 30px;
+    position: none;
+    width: 30px;
+    padding: 28px 0px 0px 10px;
+  }
+  #main {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  #main-hero {
+    width: 100%;
+    right: 10%;
+  }
+
+  #seta_baixo {
+    padding-left: 50px;
+  }
+  #seta_baixo_img {
+    width: 50px;
+  }
+  #main-hero {
+    margin-top: 90px;
+    height: 0px;
+  }
+
+  #content {
+    width: 100%;
+  }
+  #container {
+    width: 100%;
+    flex-direction: column;
+    display: block;
+    position: absolute;
+    padding-left: 0;
+  }
+  .product{
+   margin: 10px 0 0 30px;
+  }
+  .mapouter {
+    display: none;
+  }
+  #content-whats {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+  #whats-img {
+    display: none;
+  }
+
+  #text-whats {
+    display: none;
+  }
+
+  #footer {
+    width: 100%;
+    height: 314px;
+    flex-direction: column;
+  }
+  #logo-footer{
+    height: 299px;
+  }
+  #logo-footer img {
+    margin: 0;
+    width: 70%;
+  }
+  #map-site {
+    display: none;
+  }
+  #social{
+    padding-top:156px;
+    padding-left: 72px;
+  }
+
+
+
+
+/*Galeria*/
+
+#galeria-2{
+    flex-direction: column;
+    padding: 0 13vw;
+    margin-top: 0;
+    padding-bottom: 20px;
+
+
+
+}
+
+.gallery-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+
+
+}
